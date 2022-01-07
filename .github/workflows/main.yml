@@ -1,12 +1,7 @@
-name: deploy-container
-
+name: Manually triggered workflow
 on:
-  push:
-    branches:
-      - master
-    paths:
-      - "packages/container/**"
-
+  workflow_dispatch:
+  
 defaults:
   run:
     working-directory: packages/container
