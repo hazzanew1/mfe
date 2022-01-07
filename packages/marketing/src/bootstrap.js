@@ -11,7 +11,7 @@ if (process.env.NODE_ENV === "development") {
   if (el) {
     mount(el);
   } else {
-    console.log("marketing container missing");
+    console.log("marketing container missing!");
   }
 }
 
